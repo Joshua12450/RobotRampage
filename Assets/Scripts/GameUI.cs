@@ -12,6 +12,8 @@ public class GameUI : MonoBehaviour
     [SerializeField]
     Sprite blueReticle;
     [SerializeField]
+    Sprite greenReticle;
+    [SerializeField]
     Image reticle;
     [SerializeField]
     private Text ammoText;
@@ -45,7 +47,10 @@ public class GameUI : MonoBehaviour
                 break;
             case Constants.AssaultRifle:
                 reticle.sprite = blueReticle;
-        break;
+                break;
+            case Constants.Laser:
+                reticle.sprite = greenReticle;
+                break;
             default:
                 return;
         }

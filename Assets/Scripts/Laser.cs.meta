@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9f0b222a0899137498685425258ba2c7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ammo: {instanceID: 0}
+  - liveFire: {fileID: 8300000, guid: 4288f6bea33fc5a42af9f0c22380b0cb, type: 3}
+  - dryFire: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
